@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Oppgaver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Oppgaver</h1>
+
+  <!-- Oppgave 1 -->
+  <section>
+    <h2>Oppgave 1 – Kan du øvelseskjøre?</h2>
+    <label>Alder: <input type="number" id="alder"></label>
+    <label><input type="checkbox" id="trafikalt"> Har trafikalt grunnkurs</label>
+    <button id="sjekkBtn">Sjekk</button>
+    <p id="svar"></p>
+  </section>
+
+  <!-- Oppgave 2 -->
+  <section>
+    <h2>Oppgave 2 – Kontaktskjema</h2>
+    <form id="kontaktSkjema">
+      <input type="text" id="navn" placeholder="Navn"><br>
+      <input type="email" id="epost" placeholder="E-post"><br>
+      <input type="text" id="tema" placeholder="Tema"><br>
+      <textarea id="melding" placeholder="Melding"></textarea><br>
+      <button type="button" id="sendInn">Send inn</button>
+      <button type="reset">Avbryt</button>
+    </form>
+    <pre id="resultat"></pre>
+  </section>
+
+  <!-- Oppgave 3 -->
+  <section id="oppgave3">
+    <h2>Oppgave 3 – Enkel innlogging (BONUS: kun JS)</h2>
+  </section>
+
+  <!-- Oppgave 4 -->
+  <section>
+    <h2>Oppgave 4 – Tall 1 til 10</h2>
+    <pre id="oppg4"></pre>
+  </section>
+
+  <!-- Oppgave 5 -->
+  <section>
+    <h2>Oppgave 5 – Tall til valgt tall</h2>
+    <input type="number" id="maxTall" placeholder="Skriv et tall">
+    <button id="visTall">Vis tall</button>
+    <div id="tallUt"></div>
+  </section>
+
+  <!-- Oppgave 6 -->
+  <section>
+    <h2>Oppgave 6 – Personobjekt</h2>
+    <div id="personInfo"></div>
+  </section>
+
+  <!-- Oppgave 7 -->
+  <section>
+    <h2>Oppgave 7 – Passordgenerator</h2>
+    <button id="lagPassord">Lag passord</button>
+    <p id="passordResultat"></p>
+  </section>
+
+  <!-- Oppgave 8 -->
+  <section>
+    <h2>Oppgave 8 – Stjernepyramide</h2>
+    <input type="number" id="rader" placeholder="Antall rader">
+    <button id="lagPyramide">Lag pyramide</button>
+    <pre id="pyramide"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

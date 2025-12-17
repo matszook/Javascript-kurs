@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Oppgaver</title>
+</head>
+<body>
+
+  <h2>Oppgave 11</h2>
+  <button onclick="handleOnClick()">Klikk meg!</button>
+  <p id="resultat">Antall klikk: 0</p>
+
+  <h2>Oppgave 12</h2>
+  <button onclick="endreBakgrunn('red')">Rød</button>
+  <button onclick="endreBakgrunn('green')">Grønn</button>
+  <button onclick="endreBakgrunn('blue')">Blå</button>
+
+  <h2>Oppgave 13</h2>
+  <button id="writeTextBtn">Skriv tekst</button>
+
+  <div style="margin-top:10px;">
+    <label for="fontSelect">Font:</label>
+    <select id="fontSelect">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Verdana">Verdana</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="fontSize">Fontstørrelse (px):</label>
+    <input type="number" id="fontSize" value="16" min="8" max="72">
+  </div>
+
+  <div>
+    <label for="fontColor">Fontfarge:</label>
+    <input type="color" id="fontColor" value="#000000">
+  </div>
+
+  <div>
+    <label for="bgColor">Bakgrunnsfarge:</label>
+    <input type="color" id="bgColor" value="#ffffff">
+  </div>
+
+  <div id="textDisplay" style="border:1px solid #ccc; padding:10px; margin-top:10px; min-height:50px;">
+    Her kommer teksten din...
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
